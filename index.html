@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>To Do List</title>
 </head>
 <body>
-    
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <main>
+        <article id="todo">
+            <h2>To-Dos</h2>
+            <ul class="todo">
+                <li>Grocery Shopping</li>
+                <li>Exercise</li>
+                <li>Read a Book</li>
+                <li>Water Plants</li>
+                <li>Write Emails</li>
+                <li>Plan Next Week</li>
+            </ul>
+        </article>
+
+        <article id="inprogress">
+            <h2>In Progress</h2>
+            <ul class="inprogress">
+                <li><input type="checkbox"><span>Walk the Dog</span></li>
+                <li><input type="checkbox"><span>Do Dishes</span></li>
+                <li><input type="checkbox"><span>Take out Trash</span></li>
+                <li><input type="checkbox"><span>CLean Bathroom</span></li>
+                <li><input type="checkbox"><span>Call Dad</span></li>
+                <li><input type="checkbox"><span>Meditate</span></li>
+            </ul>
+        </article>
+
+        <article id="done">
+            <h2>Done</h2>
+            <ul class="done">
+                <li><input type="checkbox" checked><span>Make Bed</span></li>
+                <li><input type="checkbox" checked><span>Brush Teeth</span></li>
+                <li><input type="checkbox" checked><span>Journal Entry</span></li>
+                <li><input type="checkbox" checked><span>Shower</span></li>
+                <li><input type="checkbox" checked><span>Make Coffee</span></li>
+                <li><input type="checkbox" checked><span>Do Laundry</span></li>
+            </ul>
+        </article>
+    </main>
 </body>
 </html>
